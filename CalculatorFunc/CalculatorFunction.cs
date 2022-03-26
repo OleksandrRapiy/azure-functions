@@ -49,7 +49,7 @@ namespace CalculatorFunc
             {
                 log.LogError(ex.Message, ex);
             }
-            return new OkObjectResult(JsonSerializer.Serialize(new CalculatorDto()));
+            return new OkObjectResult(JsonSerializer.Serialize(new CalculatorDto(0, DateTime.Now.ToString(), "")));
         }
     }
 }
