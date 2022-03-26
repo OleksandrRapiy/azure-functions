@@ -1,15 +1,15 @@
 using System;
+using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using System.Data.SqlClient;
+using CalculatorFunc.Helpers;
 using CalculatorFunc.Dtos;
 using System.Text.Json;
-using System.Data.SqlClient;
-using Microsoft.AspNetCore.Http.Features;
-using CalculatorFunc.Helpers;
 
 namespace CalculatorFunc
 {
@@ -51,7 +51,5 @@ namespace CalculatorFunc
             }
             return new OkObjectResult(JsonSerializer.Serialize(new CalculatorDto()));
         }
-
-
     }
 }
