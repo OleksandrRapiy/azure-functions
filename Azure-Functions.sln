@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorFunc", "CalculatorFunc\CalculatorFunc.csproj", "{809318E3-B31E-41F3-9AE6-D29047753B02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorFunc", "CalculatorFunc\CalculatorFunc.csproj", "{809318E3-B31E-41F3-9AE6-D29047753B02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronFunc", "CronFunc\CronFunc.csproj", "{05567FCA-38FE-4E8B-8F6C-1E56DAC4B38B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CronFunc", "CronFunc\CronFunc.csproj", "{05567FCA-38FE-4E8B-8F6C-1E56DAC4B38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueFunc", "QueueFunc\QueueFunc.csproj", "{16E31727-713A-40E0-9B77-E4B315D03DBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{05567FCA-38FE-4E8B-8F6C-1E56DAC4B38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05567FCA-38FE-4E8B-8F6C-1E56DAC4B38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05567FCA-38FE-4E8B-8F6C-1E56DAC4B38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E31727-713A-40E0-9B77-E4B315D03DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E31727-713A-40E0-9B77-E4B315D03DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E31727-713A-40E0-9B77-E4B315D03DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E31727-713A-40E0-9B77-E4B315D03DBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
